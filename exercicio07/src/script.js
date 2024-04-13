@@ -1,0 +1,20 @@
+alert("Bem-vindo!"); 
+let valorA = prompt("informe o valor da A");
+let valorB = prompt("informe o valor da B");
+let valorC = prompt("informe o valor da C");
+let valorD = prompt("informe o valor da D");
+let adicao1=(valorA+valorB);
+let adicao2=(valorA+valorC);
+let adicao3=(valorA+valorD);
+let adicao4=(valorB+valorC);
+let adicao5=(valorB+valorD);
+let adicao6=(valorC+valorD);
+let multiplica1=(valorA*valorB);
+let multiplica2=(valorA*valorC);
+let multiplica3=(valorA*valorD);
+let multiplica4=(valorB*valorC);
+let multiplica5=(valorB*valorD);
+let multiplica6=(valorC*valorD);
+alert(`adição1: ${adicao1} \n adição2: ${adicao2} \n adição3: ${adicao3} \n adição4: ${adicao4} \n adição5: ${adicao5} \n adição6: ${adicao6}`);
+
+alert(`multiplicao1: ${multiplica1} \n multiplicação2: ${multiplica2} \n multiplicação2: ${multiplica3} \n multiplicação2: ${multiplica4} \n multiplicação2: ${multiplica5} \n multiplicação2: ${multiplica6} `);
