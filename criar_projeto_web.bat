@@ -7,7 +7,7 @@ set /p foldername=Digite o nome da pasta a ser criada:
 
 REM Verifica se a pasta já existe
 if not exist "%foldername%" (
-    mkdir "%foldername%"\src
+    mkdir "%foldername%"\src\img
     REM Cria os arquivos no diretório recém-criado
     echo Criando arquivos...
     type nul > "%foldername%\src\style.css"
