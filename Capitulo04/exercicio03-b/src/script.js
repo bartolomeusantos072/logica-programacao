@@ -1,4 +1,10 @@
-alert("Bem-vindo!"); 
-let celsius = prompt("informe o valor em C°");
-let fahrenheit = (9*celsius+160)/5;
-alert(`${celsius}C° equivale a ${fahrenheit}F°`);
+//ler um valor númerico inteiro negativo ou positivo
+//apresentar a valor sempre positivo
+
+let valor=parseInt(prompt("Informe o 1° valor:"));
+
+if(valor < 0){
+    valor*=-1;
+}
+
+alert(`O resultado é ${valor}`);
