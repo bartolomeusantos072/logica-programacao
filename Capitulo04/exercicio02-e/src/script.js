@@ -1,4 +1,10 @@
 alert("Bem-vindo!"); 
-let celsius = prompt("informe o valor em C°");
-let fahrenheit = (9*celsius+160)/5;
-alert(`${celsius}C° equivale a ${fahrenheit}F°`);
+let a=2,
+    b=3,
+    c=5,
+    d=9,
+    x;
+
+(!(a > 2)|| (!(b < 7)))? x=(a+b) : x=(a/b);
+
+alert(`resultado: ${x}`);
