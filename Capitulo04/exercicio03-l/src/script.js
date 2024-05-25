@@ -1,4 +1,8 @@
-alert("Bem-vindo!"); 
-let celsius = prompt("informe o valor em C°");
-let fahrenheit = (9*celsius+160)/5;
-alert(`${celsius}C° equivale a ${fahrenheit}F°`);
+//ler um valor qualquer e verificar se .nao.(valor > 3)
+
+let valor=parseInt(prompt("informe um valor"));
+if(!(valor>3) ) {
+    alert(`${valor} não é maior que 3`);
+}else{
+    alert(`${valor} é maior que 3`);
+}

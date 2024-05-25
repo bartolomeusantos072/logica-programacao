@@ -1,4 +1,7 @@
-alert("Bem-vindo!"); 
-let celsius = prompt("informe o valor em C°");
-let fahrenheit = (9*celsius+160)/5;
-alert(`${celsius}C° equivale a ${fahrenheit}F°`);
+//informa se um valor é par ou impar
+let valor1=parseInt(prompt("informe um valor"));
+if(valor1 % 2 == 0 ) {
+    alert(`${valor1} é um valor par`);
+}else{
+    alert(`${valor1} é um valor impar`);
+}

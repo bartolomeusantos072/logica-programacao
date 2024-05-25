@@ -1,4 +1,11 @@
 alert("Bem-vindo!"); 
-let celsius = prompt("informe o valor em C°");
-let fahrenheit = (9*celsius+160)/5;
-alert(`${celsius}C° equivale a ${fahrenheit}F°`);
+
+let pessoa={ 
+    nome: prompt("Qual o seu nome?"),
+    sexo: prompt('informe o sexo?')[0].toLowerCase()
+}
+
+if(pessoa.sexo=='f'){
+    alert(`Ilma. Sra. ${ pessoa.nome}`);
+}else{
+    alert(`I
