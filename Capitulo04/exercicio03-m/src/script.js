@@ -8,4 +8,5 @@ let pessoa={
 if(pessoa.sexo=='f'){
     alert(`Ilma. Sra. ${ pessoa.nome}`);
 }else{
-    alert(`I
+    alert(`Ilmo. Sr. ${ pessoa.nome}`);
+}
